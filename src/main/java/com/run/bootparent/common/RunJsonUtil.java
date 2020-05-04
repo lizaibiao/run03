@@ -19,6 +19,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public class RunJsonUtil {
 
+
     private static final Logger LOGGER = LoggerFactory.getLogger(RunJsonUtil.class);
 
     private static ObjectMapper mapper;
