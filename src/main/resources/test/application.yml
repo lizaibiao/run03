@@ -1,6 +1,6 @@
 #tomcat端口
 server:
-  port: 8806
+  port: 8888
 
 #日志目录
 logging:
