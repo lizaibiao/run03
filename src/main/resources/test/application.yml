@@ -1,0 +1,27 @@
+#tomcat端口
+server:
+  port: 8806
+
+#日志目录
+logging:
+  config: classpath:test/logback-test.xml
+
+# 数据库连接配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/run?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis-plus对应的xml
+mybatis-plus:
+  type-aliases-package: com.run.bootparent.run.entity
+  configuration:
+    local-cache-scope: statement
+  mapper-locations:
+    - classpath:mapper/*.xml
+
+
+

@@ -10,6 +10,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class APP {
 
     public static void main(String[] args) {
+
+        System.out.println(1);///jdiajsidah
         SpringApplication.run(APP.class, args);
     }
 
